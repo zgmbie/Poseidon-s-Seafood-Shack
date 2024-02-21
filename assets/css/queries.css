@@ -1,0 +1,110 @@
+@media (max-width: 1300px) {
+  .front-img-container img {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+  .step-x-container,
+  .step-2-container {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 760px) {
+  .section-model {
+    padding: 2rem;
+  }
+  .model-form h2 {
+    font-size: 1rem;
+  }
+  /* ///////////////////////// */
+  .brand-title {
+    font-size: 1rem;
+  }
+  .front-text-container h1 {
+    font-size: 2rem;
+  }
+  .how_text_container span {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+
+  .how_text_container h2 {
+    font-size: 1.8rem;
+  }
+
+  .step-x-text-container h3 {
+    font-size: 1.8rem;
+  }
+  .step-2-text-container h3 {
+    font-size: 1.8rem;
+  }
+
+  .pricing-text-container h2 {
+    font-size: 1.8rem;
+    margin: 1rem auto 2rem;
+  }
+  .section-meals-text h2 {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section-model {
+    width: 20rem;
+  }
+  .section-front {
+    padding: 4rem 2rem 6rem;
+  }
+  .section-how {
+    padding: 4rem 2rem 2rem;
+  }
+  .section-pricing {
+    padding: 4rem 2rem;
+  }
+  .section-meals {
+    padding: 4rem 2rem;
+  }
+  .footer {
+    padding: 4rem 2rem;
+  }
+  .front-text-container h1 {
+    font-size: 1.8rem;
+    max-width: 40ch;
+  }
+  .left-container ul li {
+    font-size: 1.1rem;
+  }
+  .right-container ul li {
+    font-size: 1.1rem;
+  }
+}
